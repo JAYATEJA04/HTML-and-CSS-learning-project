@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+body{
+    background : linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    color: #ffffff;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20%;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+span{
+    color: #1f1f1f;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+p{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+span2{
+    color: greenyellow;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+button{
+
+    margin: auto;
+    /* margin: 2px 4px;  */
+    /* 2px means the gap from top and bottom and 4px means the gap from right and left */
+
+    display: block;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.6em;
+    color: #1f1f1f;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 1.2em 2.5em;
+    cursor: grab;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.btn:hover{
+    color: #ffffff;
+    outline: 0;
+}
+
+.lco{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.lco:hover{
+    box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background : orange
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    span{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+    body{
+        background-color: crimson;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    span{
+        font-size: 60px;
+    }
+}

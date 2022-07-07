@@ -58,7 +58,7 @@ button{
 
 .btn:hover{
     color: #ffffff;
-    outline: 0;
+    /* outline: 0; */
 }
 
 .lco{
